@@ -1,0 +1,41 @@
+title: احسان رفیعی نژاد
+email: ehsan.rafieinezhad@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-timeago
+
+defaults:
+  - values:
+      lang: "fa_IR"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+jekyll_timeago:
+  depth: 2 # Level of detail
+  today: 'امروز'
+  yesterday: 'دیروز'
+  tomorrow: 'فردا'
+  and: 'و'
+  suffix: 'پیش'
+  prefix: ''
+  suffix_future: ''
+  prefix_future: 'در'
+  years: 'سال'
+  year: 'سال'
+  months: 'ماه'
+  month: 'ماه'
+  weeks: 'هفته'
+  week: 'هفته'
+  days: 'روز'
+  day: 'روز'
