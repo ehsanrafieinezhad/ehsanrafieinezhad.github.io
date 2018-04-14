@@ -1,4 +1,7 @@
-** Personal blog **
-ehsan rafieinezhad
-email address: ehsan.rafieinezhad@gmail.com
+
+
+- Personal blog - ehsan rafieinezhad
+- email address: ehsan.rafieinezhad@gmail.com
+
+
 > powered by: jekyll CMS
